@@ -1,0 +1,8 @@
+{
+    "cSpell.words": ["echarts", "formdata", "Persistedstate", "pinia", "rushstack", "unplugin", "yokins"],
+    "editor.formatOnSave": true,
+    "vue.codeActions.enabled": false,
+    "path-intellisense.mappings": {
+        "@": "${workspaceFolder}/src"
+    }
+}
