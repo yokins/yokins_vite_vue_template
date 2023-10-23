@@ -3,10 +3,10 @@ import "nprogress/nprogress.css";
 import "./assets/styles/global.scss";
 
 import { createApp } from "vue";
-import pinia from "@/stores/index.js";
 
 import App from "./App.vue";
-import router from "./router";
+import router from "@/router/index.js";
+import pinia from "@/stores/index.js";
 
 const app = createApp(App);
 
