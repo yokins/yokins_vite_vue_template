@@ -1,5 +1,20 @@
 {
-    "cSpell.words": ["echarts", "formdata", "Persistedstate", "pinia", "rushstack", "unplugin", "yokins"],
+    "cSpell.words": [
+        "aife",
+        "aifs",
+        "echarts",
+        "formdata",
+        "jcfe",
+        "jcfs",
+        "jcsa",
+        "jcsb",
+        "jcse",
+        "Persistedstate",
+        "pinia",
+        "rushstack",
+        "unplugin",
+        "yokins"
+    ],
     "editor.formatOnSave": true,
     "vue.codeActions.enabled": false,
     "path-intellisense.mappings": {
