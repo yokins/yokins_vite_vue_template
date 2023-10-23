@@ -30,7 +30,7 @@ export const useSystemStore = defineStore("system", {
          * @param {*} locale
          * @return {*}
          */
-        changeLocale(locale) {
+        changeLocale(locale = "") {
             if (locale.includes("en")) {
                 this.theme = locales.en.theme;
                 dayjs.locale("en");

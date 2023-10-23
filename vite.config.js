@@ -8,6 +8,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import removeConsole from "vite-plugin-remove-console";
 import { compression } from "vite-plugin-compression2";
 import Components from "unplugin-vue-components/vite";
+import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -22,7 +23,11 @@ export default defineConfig({
             },
         }),
         Components({
-            resolvers: [],
+            resolvers: [
+                AntDesignVueResolver({
+                    importStyle: false,
+                }),
+            ],
         }),
         eslint({
             lintOnStart: true,
@@ -77,6 +82,7 @@ export default defineConfig({
             "pinia-plugin-persistedstate",
             "vue-router",
             "nprogress",
+            "ant-design-vue",
         ],
     },
 });
